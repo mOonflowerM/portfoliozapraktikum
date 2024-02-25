@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Zeyada&display=swap');
+%containerOne{
+    width:85%;
+    margin:0px auto;
+    padding:20px 0px;
+}
+%containerTwo{
+    width:90%;
+    margin:0px auto;
+    padding:20px 0px;
+}
+%btn{
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    padding: 17px 48px;
+    color: white;
+    background-color: $color-primary;
+    height: 48px;
+    margin-top: 20px;
+    &:hover{
+        transform: scale(1.04);
+        background-color: $color-secondary;
+    }
+
+}
+
+%headline{
+    margin: 0px auto;
+    padding: 25px 0px;
+    text-align: center;
+    h2{
+        font-size: 3.5rem;
+        color:$color-primary;
+        font-family: "Zeyada", cursive;
+        text-transform: uppercase;
+        &::after{
+        content: "";
+        height: 3px;
+        width: 60px;
+        margin: 0px auto;
+        background-color: $color-primary;
+        display: block;
+        }
+    }
+}
+
+%paddingBtm{
+        padding-bottom: 50px;
+}

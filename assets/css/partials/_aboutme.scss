@@ -1,0 +1,55 @@
+
+/* about me sekcija */
+.about-me{
+    background: $mygray;
+    @extend %paddingBtm;
+    .headline{
+        @extend %headline;
+    }
+    .containertwo{
+        @extend %containerOne;
+        @include d-flex(space-between,wrap,normal);
+        .about-me-picture{
+            width:35%;
+        }
+        .about-me-text{
+            width:50%;
+            padding-top: 5%;
+            h3{
+                text-transform: uppercase;
+                font-size: 2rem;
+            }
+            h4{
+                font-size: 1.5rem;
+                margin: 1.3rem 0;
+            }
+            .paragraphs{
+                
+                font-weight: 300;
+                font-style: italic;
+                
+                p{
+                    margin-bottom: 0.65rem;
+                    font-size: 1.4rem;
+
+                }
+
+            }
+            .education-wise{
+                margin-top: 1rem;
+                p{
+                    font-weight: 300;
+                    margin-bottom: 1rem;
+                    font-size: 1.2rem;
+                    a{color:black;font-size: 1.25rem;}
+                    .cursive-text-two{
+                        color:$color-secondary;
+                        font-size: 1.25rem;
+                    
+                    }
+                }
+            }
+        }
+    }
+}
+

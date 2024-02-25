@@ -1,0 +1,61 @@
+header{
+    background-color: $mygray;
+    width:100%;
+    .wrapper{
+        @extend %containerOne;
+        @include d-flex;
+        .logo{
+            width:10%;
+        h1 {
+           a{ color: $color-secondary;
+            font-size:55px;
+            }
+        }
+    }
+    nav{
+
+       ul{ @include d-flex();
+        a{
+            display: inline-block;
+            margin-left: 20px;
+            font-size: 20px;
+            text-transform: uppercase;
+            font-weight: 500;
+            transition: 0.2s ease-in;
+            color:$color-primary;
+            &:hover{
+                color:$color-secondary;
+
+            }
+        }
+    
+    }
+
+    }
+    }
+}
+/* slika ispod */
+.bottom-picture{
+    background: radial-gradient(circle at 10% 20%, rgba(0, 0, 0,0.8) 0%, rgba(64, 64, 64,0.8) 90.2%),url("../img/background1.jpg") no-repeat;
+    background-size: cover;
+    height:750px;
+    text-align: center;
+    @include d-flex();
+   .hello-middle-center{
+    margin: 0px auto;
+    width:85%;
+    h1{
+        color:white;
+        font-size: 50px;
+        .cursive-text{
+            font-family: "Zeyada", cursive;
+            color:$color-secondary;
+            font-size: larger;
+        }
+    }
+    .btn-first{
+       a{ @extend %btn;
+        }
+    }
+   }
+}

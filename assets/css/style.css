@@ -1,0 +1,411 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Zeyada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Zeyada&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.contact .containerFive, .projects .containerFour, .about-me .containertwo, header .wrapper {
+  width: 85%;
+  margin: 0px auto;
+  padding: 20px 0px;
+}
+
+.services .containerThree {
+  width: 90%;
+  margin: 0px auto;
+  padding: 20px 0px;
+}
+
+.contact .containerFive .contact-form form .btn-second, .bottom-picture .hello-middle-center .btn-first a {
+  display: inline-block;
+  outline: none;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color, border-color, color, box-shadow;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  padding: 17px 48px;
+  color: white;
+  background-color: #372554;
+  height: 48px;
+  margin-top: 20px;
+}
+.contact .containerFive .contact-form form .btn-second:hover, .bottom-picture .hello-middle-center .btn-first a:hover {
+  transform: scale(1.04);
+  background-color: #A57CE8;
+}
+
+.about-me .headline, .headline {
+  margin: 0px auto;
+  padding: 25px 0px;
+  text-align: center;
+}
+.about-me .headline h2, .headline h2 {
+  font-size: 3.5rem;
+  color: #372554;
+  font-family: "Zeyada", cursive;
+  text-transform: uppercase;
+}
+.about-me .headline h2::after, .headline h2::after {
+  content: "";
+  height: 3px;
+  width: 60px;
+  margin: 0px auto;
+  background-color: #372554;
+  display: block;
+}
+
+.contact, .about-me {
+  padding-bottom: 50px;
+}
+
+header {
+  background-color: #E8E8E8;
+  width: 100%;
+}
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+}
+header .wrapper .logo {
+  width: 10%;
+}
+header .wrapper .logo h1 a {
+  color: #A57CE8;
+  font-size: 55px;
+}
+header .wrapper nav ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+}
+header .wrapper nav ul a {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: 0.2s ease-in;
+  color: #372554;
+}
+header .wrapper nav ul a:hover {
+  color: #A57CE8;
+}
+
+/* slika ispod */
+.bottom-picture {
+  background: radial-gradient(circle at 10% 20%, rgba(0, 0, 0, 0.8) 0%, rgba(64, 64, 64, 0.8) 90.2%), url("../img/background1.jpg") no-repeat;
+  background-size: cover;
+  height: 750px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+}
+.bottom-picture .hello-middle-center {
+  margin: 0px auto;
+  width: 85%;
+}
+.bottom-picture .hello-middle-center h1 {
+  color: white;
+  font-size: 50px;
+}
+.bottom-picture .hello-middle-center h1 .cursive-text {
+  font-family: "Zeyada", cursive;
+  color: #A57CE8;
+  font-size: larger;
+}
+/* about me sekcija */
+.about-me {
+  background: #E8E8E8;
+}
+.about-me .containertwo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: normal;
+  flex-direction: row;
+}
+.about-me .containertwo .about-me-picture {
+  width: 35%;
+}
+.about-me .containertwo .about-me-text {
+  width: 50%;
+  padding-top: 5%;
+}
+.about-me .containertwo .about-me-text h3 {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.about-me .containertwo .about-me-text h4 {
+  font-size: 1.5rem;
+  margin: 1.3rem 0;
+}
+.about-me .containertwo .about-me-text .paragraphs {
+  font-weight: 300;
+  font-style: italic;
+}
+.about-me .containertwo .about-me-text .paragraphs p {
+  margin-bottom: 0.65rem;
+  font-size: 1.4rem;
+}
+.about-me .containertwo .about-me-text .education-wise {
+  margin-top: 1rem;
+}
+.about-me .containertwo .about-me-text .education-wise p {
+  font-weight: 300;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+.about-me .containertwo .about-me-text .education-wise p a {
+  color: black;
+  font-size: 1.25rem;
+}
+.about-me .containertwo .about-me-text .education-wise p .cursive-text-two {
+  color: #A57CE8;
+  font-size: 1.25rem;
+}
+
+.services {
+  background-color: #372554;
+  padding: 20px 0px 80px 0px;
+}
+.services .headline h2 {
+  color: white;
+}
+.services .headline h2::after {
+  background-color: white;
+}
+.services .containerThree .row-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  padding: 30px 0px;
+}
+.services .containerThree .row-section .service-box {
+  color: #372554;
+  width: 23%;
+  text-align: center;
+  margin-right: 1rem;
+  border-radius: 91% 9% 88% 12%/11% 90% 10% 89%;
+  background: white;
+  padding: 2% 3%;
+}
+.services .containerThree .row-section .service-box h5 {
+  margin: 0.65rem 0;
+  font-size: 1rem;
+}
+.services .containerThree .row-section .service-box i {
+  font-size: 1.5rem;
+  transition: color, transform, 0.3s ease-in-out;
+}
+.services .containerThree .row-section .service-box i:hover {
+  color: #A57CE8;
+  transform: rotate(360deg);
+}
+.services .containerThree .row-section .service-box p {
+  text-align: justify;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.projects {
+  padding-bottom: 70px;
+}
+.projects .containerFour .row-section-two {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  padding: 30px 0px;
+}
+.projects .containerFour .service-box-two {
+  width: 32%;
+  border-radius: 10px;
+  position: relative;
+  transition: 0.4s ease-in;
+}
+.projects .containerFour .service-box-two:hover {
+  transform: scale(1.065);
+}
+.projects .containerFour .service-box-two img {
+  display: block;
+  border-radius: 10px;
+  height: 250px;
+}
+.projects .containerFour .service-box-two .content-when-hover {
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background: radial-gradient(circle at 10% 20%, rgba(92, 41, 99, 0.8) 0%, rgba(66, 12, 86, 0.8) 90.2%);
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: column;
+  transition: opacity 0.7s ease-in;
+}
+.projects .containerFour .service-box-two .content-when-hover h3 {
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 600;
+}
+.projects .containerFour .service-box-two .content-when-hover:hover {
+  opacity: 1;
+}
+
+/* contact!*/
+.contact {
+  background: #372554;
+}
+.contact #contact-section h2 {
+  color: white;
+}
+.contact #contact-section h2:after {
+  background-color: white;
+}
+.contact .containerFive {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+}
+.contact .containerFive .contact-form {
+  width: 47%;
+}
+.contact .containerFive .contact-form .form-text {
+  margin-bottom: 1.4rem;
+  width: 85%;
+}
+.contact .containerFive .contact-form .form-text p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #E8E8E8;
+  margin-bottom: 5px;
+}
+.contact .containerFive .contact-form form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: column;
+  width: 85%;
+}
+.contact .containerFive .contact-form form input, .contact .containerFive .contact-form form textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 9px 9px;
+  border-radius: 15px;
+}
+.contact .containerFive .contact-form form input::-moz-placeholder, .contact .containerFive .contact-form form textarea::-moz-placeholder {
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+.contact .containerFive .contact-form form input::placeholder, .contact .containerFive .contact-form form textarea::placeholder {
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+.contact .containerFive .contact-form form textarea {
+  resize: none;
+}
+.contact .containerFive .contact-form form .btn-second {
+  background: #A57CE8;
+  margin-bottom: 1rem;
+}
+.contact .containerFive .contact-form form .btn-second:hover {
+  background: #372554;
+  border: 2px solid #A57CE8;
+}
+.contact .containerFive .contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+}
+.contact .containerFive .contact-info .info-block {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+.contact .containerFive .contact-info .info-block a, .contact .containerFive .contact-info .info-block p {
+  align-self: center;
+  font-size: 1.4rem;
+  color: white;
+}
+.contact .containerFive .contact-info .info-block i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: #A57CE8;
+}
+
+/* foooooter */
+footer {
+  border-top: 3px solid #A57CE8;
+  background: #E8E8E8;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: row;
+}
+footer .footer-content p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #372554;
+}
+footer .footer-content a {
+  margin-right: 4px;
+  transition: 0.3s ease-in;
+  color: #372554;
+}
+footer .footer-content a i {
+  font-size: 1.5rem;
+}
+footer .footer-content a:hover {
+  color: #A57CE8;
+}/*# sourceMappingURL=style.css.map */

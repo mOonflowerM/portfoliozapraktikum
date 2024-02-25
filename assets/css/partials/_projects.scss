@@ -1,0 +1,48 @@
+.projects{
+    padding-bottom: 70px;
+    .containerFour{
+        @extend %containerOne;
+        .row-section-two{
+            @include d-flex(space-between,wrap,center,row);
+            padding: 30px 0px;
+        }
+        .service-box-two{
+            width:32%;
+            @include br;
+            position: relative;
+            transition:0.4s ease-in;
+                &:hover{
+                    transform:scale(1.065);
+                }
+            img{
+                display: block;
+                @include br;
+                height: 250px;
+    
+            }
+            .content-when-hover{
+                width:100%;
+                @include br;
+                text-align: center;
+                height: 100%;
+                position: absolute;
+                top:0;
+                left: 0;
+                opacity: 0;
+                background:radial-gradient(circle at 10% 20%, rgba(92, 41, 99, 0.8) 0%, rgba(66, 12, 86, 0.8) 90.2%);
+                @include d-flex(center,nowrap,center,column);
+                transition: opacity 0.7s ease-in;
+                h3{
+                    font-size: 1.2rem;
+                    color:white;
+                    font-weight: 600;
+                }
+                &:hover{
+                    opacity:1;
+    
+                }
+                
+            }
+        }
+    }
+}

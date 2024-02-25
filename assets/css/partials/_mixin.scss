@@ -1,0 +1,11 @@
+@mixin d-flex($jc:space-between, $fw:wrap, $ai:center, $fd:row){
+    display:flex;
+    justify-content: $jc;
+    flex-wrap: $fw;
+    align-items: $ai;
+    flex-direction: $fd;
+}
+@mixin br($br:10px){
+    border-radius: $br;
+}
+

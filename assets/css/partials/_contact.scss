@@ -1,0 +1,104 @@
+/* contact!*/
+.contact{
+    #contact-section {
+        h2{
+            color:white;
+            &:after{
+                background-color: white
+            }
+        }
+        
+    }
+    @extend %paddingBtm;
+    background: $color-primary;
+    .containerFive{
+        @include d-flex;
+        @extend %containerOne;
+        .contact-form{
+            width:47%;
+            .form-text{
+                margin-bottom: 1.4rem;
+                width:85%;
+                p{
+                    font-size: 1.1rem;
+                    font-weight: 500;
+                    color:$mygray;
+                    margin-bottom: 5px;
+                }
+            }
+
+
+           form{
+            @include d-flex(space-between,nowrap,center,column);
+            width:85%;
+            input,textarea{
+                width:100%;
+                margin-bottom: 1rem;
+                padding: 9px 9px;
+                @include br(15px);
+                &::placeholder{
+                    letter-spacing: 1px;
+                    font-size: 1rem;
+                }
+            }
+            textarea{
+                resize: none;
+            }
+            .btn-second{
+                @extend %btn;
+                background: $color-secondary;
+                margin-bottom: 1rem;
+                &:hover{
+                    background:$color-primary;
+                    border: 2px solid  $color-secondary ;
+                }
+             
+            }
+
+            }
+           }
+           .contact-info{
+            @include d-flex(space-between,nowrap,center,column);
+            width:40%;
+            .info-block{
+                @include d-flex(flex-start,nowrap,center,row);
+                margin-bottom:2rem;
+                a,p{
+                    align-self: center;
+                    font-size: 1.4rem;
+                    color:white;
+                }
+                i{
+                    font-size: 1.5rem;
+                    margin-right: 1rem;
+                    color:$color-secondary;
+                }
+            }
+           }
+        }
+    }
+    /* foooooter */
+    footer{
+        border-top: 3px solid $color-secondary;
+        background: $mygray;
+        padding:15px;
+        @include d-flex(space-between,nowrap,center,row);
+        .footer-content{
+            p{
+                font-size: 1.3rem;
+                font-weight: 400;
+                color:$color-primary;
+            }
+            a{
+                margin-right: 4px;
+                transition: 0.3s ease-in;
+                color:$color-primary;
+                i{
+                    font-size: 1.5rem;
+                }
+                &:hover{
+                    color:$color-secondary;
+                }
+            }
+        }
+    }

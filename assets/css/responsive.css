@@ -1,0 +1,277 @@
+
+ @media screen and  (min-width:606px){
+     /* Hi! deo */
+     .smallerScreen{
+        display: none;
+    }
+    }
+
+
+
+
+@media screen and (max-width:1024px){
+    .services .containerThree{
+        width:98%;
+    }
+    .contact .containerFive .contact-form .form-text{
+        font-size: 1.3rem;
+    }
+    .projects .containerFour .row-section-two{
+        flex-direction: column;
+    }
+    .projects .containerFour .service-box-two{
+        width:75%;
+        margin-bottom: 1.3rem;
+    }
+    .projects .containerFour .service-box-two img{
+        height:100%;
+    }
+    .about-me .containertwo .about-me-text .paragraphs p{
+        font-size: 1.2rem;
+    }
+    .services .containerThree .row-section .service-box p {
+        font-size: 1.065rem;
+    }
+}
+@media screen and (max-width:980px){
+    .about-me .containertwo .about-me-text .paragraphs p{
+        font-size: 1.1rem;
+    }
+    .services .containerThree .row-section .service-box{
+        padding: 2%;
+    }
+    .contact .containerFive .contact-form{
+        width:50%;
+
+    }
+    .contact .containerFive .contact-info{
+        width:45%;
+    }
+    .contact .containerFive .contact-form .form-text p {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:890px){
+    .services .containerThree .row-section .service-box{
+        width:40%;
+        padding: 5%;
+        margin-bottom: 1rem;
+    }
+    .services .containerThree .row-section{
+        justify-content: space-evenly;
+
+    }
+    .contact .containerFive .contact-form .form-text p {
+        font-size: 1rem;
+    }
+    .about-me .containertwo .about-me-text .paragraphs p{
+        font-size: 1.1rem;
+    }
+    header .wrapper nav ul a{
+        font-size: 18px;
+    }
+    header .wrapper .logo h1 a{
+        font-size: 45px;
+    }
+    .bottom-picture .hello-middle-center h1{
+        font-size: 45px;
+    }
+    .contact .containerFive{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:94%;
+    }
+    .contact .containerFive .contact-form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 1.5rem;
+        width:80%;
+    }
+    .contact .containerFive .contact-info {
+        width:50%;
+    }
+    
+}
+@media screen and (max-width:795px){
+    .widerScreen h1{
+    font-size: 43px;
+    }
+    .about-me .containertwo .about-me-text{
+        padding-top: 0%;
+
+    }
+    .contact .containerFive .contact-form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 1.5rem;
+        width:84%;
+    }
+}
+
+@media screen and (max-width:674px){
+    .about-me .containertwo .about-me-text h3{
+        font-size: 1.8rem;
+    }
+    .bottom-picture .hello-middle-center .widerScreen{
+        font-size: 38px;
+    }
+}
+@media screen and (max-width:606px){
+    header .wrapper{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+
+    }
+  
+    .contact .containerFive .contact-form{
+        width:95%;
+    }
+    .about-me .containertwo .about-me-text .paragraphs p {
+        margin-bottom: 0.65rem;
+        text-align: justify;
+    }
+    .widerScreen{
+        display: none;
+    }
+    header .wrapper nav ul a{
+        font-size: 15px;
+    }
+    header .wrapper .logo h1 a {
+        font-size: 40px;
+    }
+    .bottom-picture .hello-middle-center h1{
+        font-size: 40px;
+    }
+    .about-me .containertwo{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-me .containertwo .about-me-picture{
+        margin-bottom: 1.3rem;
+    }
+    .about-me .containertwo .about-me-text{
+        text-align: center;
+    }
+    .about-me .containertwo .about-me-picture,.about-me .containertwo .about-me-text{
+        width:80%;
+    }
+    .about-me .headline h2,.headline h2 {
+        font-size: 2.2rem;
+    }
+    .about-me .containertwo .about-me-text h3{
+        font-size: 1.6rem;
+    }
+    .about-me .containertwo .about-me-text h4 {
+        font-size: 1.3rem;
+    }
+    .about-me .containertwo .about-me-text .paragraphs p{
+        font-size: 1rem;
+    }
+     .services .containerThree{
+        width:100%;
+
+    }
+    .services .containerThree .row-section .service-box{
+        width:59%;
+        padding:5% 8%;
+    }
+    .about-me .containertwo .about-me-text .education-wise p{
+        text-align: justify;
+    }
+    .projects .containerFour .service-box-two{
+        width:87%;
+    }
+    .contact .containerFive .contact-info .info-block a, .contact .containerFive .contact-info .info-block p{
+        font-size: 1.3rem;
+    }
+    footer .footer-content p{
+        font-size: 1.2rem;
+    }
+    footer .footer-content a i{
+        font-size: 1.5rem;
+    }
+    .contact .containerFive{
+        width:95%;
+    }
+    .bottom-picture .hello-middle-center{
+        width:90%;
+    }
+}
+
+@media screen and (max-width:416px){
+    .services .containerThree .row-section .service-box{
+        width:68%;
+        padding:5% 8%;
+    }
+    .bottom-picture .hello-middle-center{
+        width:95%;
+    }
+    .services .containerThree .row-section .service-box p{
+        font-size: 13px;
+    }
+    .bottom-picture .hello-middle-center .smallerScreen{
+        font-size: 36px;
+    }
+    .about-me .containertwo .about-me-text h3{
+        font-size: 1.2rem;
+    }
+    .about-me .containertwo .about-me-text h4 {
+        font-size: 1.1rem;
+    }
+    .contact .containerFive{
+        width:100%;
+    }
+    .contact .containerFive .contact-form{
+        width:100%;
+    }
+    .contact .containerFive .contact-info .info-block a, .contact .containerFive .contact-info .info-block p{
+        font-size: 1.1rem;
+    }
+    footer .footer-content p{
+        font-size: 1rem;
+    }
+    footer .footer-content a i{
+        font-size: 1.1rem;
+    }
+    
+.bottom-picture .hello-middle-center h1{
+    font-size: 38px;
+}
+   
+}
+@media screen and (max-width:351px){
+
+    header .wrapper nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact .containerFive .contact-form .form-text p{
+        font-size: 0.90rem;
+    }
+    .bottom-picture .hello-middle-center h1{
+        font-size: 38px;
+    }
+    .about-me .containertwo .about-me-text .education-wise p a,.about-me .containertwo .about-me-text .education-wise p{
+        font-size: 1rem;
+    }
+    .services .containerThree .row-section .service-box {
+        width:72%;
+    }
+    .projects .containerFour .service-box-two{
+        width:92%;
+    }
+    footer{
+        flex-direction: column;
+        padding: 8px 0px;
+    }
+    footer .footer-content{
+        margin-bottom: 5px;
+    }
+}

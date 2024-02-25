@@ -1,0 +1,27 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Barlow", sans-serif;
+    scroll-behavior: smooth;
+    font-size:16px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.headline{
+    @extend %headline
+}
+img{width:100%}
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Zeyada&display=swap');
+@import  "partials/variables";
+@import "partials/mixin";
+@import "partials/inheritance";
+@import "partials/header";
+@import "partials/aboutme";
+@import "partials/services";
+@import "partials/projects";
+@import "partials/contact";

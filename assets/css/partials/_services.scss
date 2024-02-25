@@ -1,0 +1,51 @@
+.services{
+    background-color: $color-primary;
+    padding:20px 0px 80px 0px;
+    .headline{
+        h2{
+            color:white;
+            &::after{
+                background-color: white;
+            }
+        }
+        
+    }
+    .containerThree{
+        @extend %containerTwo;
+        .row-section{
+            @include d-flex();
+            padding: 30px 0px;
+            .service-box{
+                color:$color-primary;
+                width:23%;
+                text-align: center;
+                margin-right: 1rem;
+                @include br(91% 9% 88% 12% / 11% 90% 10% 89% );
+                background: white;
+                padding: 2% 3%;
+                h5{
+                    margin: 0.65rem 0;
+                    font-size: 1rem;
+                }
+                i{
+                    font-size: 1.5rem;
+                    transition: color,transform,0.3s ease-in-out;
+                    &:hover{
+                        color:$color-secondary;
+                        transform: rotate(360deg);
+                    }
+                    
+                }
+                p{
+                    text-align: justify;
+                    font-size:1rem;
+                    font-weight: 500;
+    
+            
+
+                }
+                
+            }
+        }
+    }
+}
